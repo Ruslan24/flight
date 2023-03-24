@@ -1,0 +1,116 @@
+#app{
+    padding: 2%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-item {
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.pagination-item.active {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.pagination-item.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-form input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.filter-form select {
+    padding: 5px;
+    margin-right: 10px;
+}
+.filters {
+    margin-bottom: 10px;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], select {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+th:hover {
+    background-color: #f5f5f5;
+}
+
+
+.form-Flight{
+    padding: 4%;
+    margin-left: 20%;
+}
+
+.error-message{
+    color: #e13e3e;
+}
+.success-message{
+    color: #0d9120;
+}
+
+.update-Flight{
+    color: #0d9120;
+}
+.delete-Flight{
+    color: #e13e3e;
+}
